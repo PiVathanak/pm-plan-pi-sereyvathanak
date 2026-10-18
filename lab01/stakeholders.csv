@@ -1,0 +1,12 @@
+id,name_or_group,role,category,interest,influence,interest_level,expectation
+S01,Head of the IT department,Sponsor,sponsor,a reusable quiz tool thatsaves marking time and shows the department innovates,H,H,MVP demo inweek 7 and a pilot with 50 students in week 14 within 200 USD cash
+S02,Tal Tongsreng,Project manager (supervising lecturer),pm,divide task planning arrange meeting and function evaluation with the team,H,H, a complete project plan and a final report with a demo in week 14
+S03,Team 2,Developers and testers,team,backend and frontend development using programming languages and frameworks,M,H,complete the project plan and a final report with a demo in week 14
+S04,Pilot students (50),End users,user,testing the quiz tool and give feedback to the development team and stakeholders,L,M,relevant feedback on the quiz tool and give suggestions for improvement in week 14
+S05,Security team,Security specialist,security,apply security layout and secure web application for the quiz tool,H,L,secure the quiz tool and provide a security report in week 14
+S06,IT operations (VPS admin),Runs gicitc.com hosting and backups,operations,no surprises at go-live; a runbook and a backup job,M,M,a deployment checklist and the docker-compose.prod.yml two weeks before the pilot
+S07,Data protection officer,Approves storage of student data,governance,student names and results stored on campus with a retention rule,H,L,a one-page data description before the pilot; can block the pilot
+S08,Lecturers who run quizzes,Teacher users of the platform,user,upload question sets as JSON and see live scores and results without manual marking,M,H,a simple JSON upload and a live results view that works in the MVP demo in week 7
+
+stakeholders.md: S01 and S09 are high influence; S09 is the veto
+stakeholder because the pilot cannot run without data approval.
