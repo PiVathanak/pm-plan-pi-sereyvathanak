@@ -7,6 +7,3 @@ S05,Security team,Security specialist,security,apply security layout and secure 
 S06,IT operations (VPS admin),Runs gicitc.com hosting and backups,operations,no surprises at go-live; a runbook and a backup job,M,M,a deployment checklist and the docker-compose.prod.yml two weeks before the pilot
 S07,Data protection officer,Approves storage of student data,governance,student names and results stored on campus with a retention rule,H,L,a one-page data description before the pilot; can block the pilot
 S08,Lecturers who run quizzes,Teacher users of the platform,user,upload question sets as JSON and see live scores and results without manual marking,M,H,a simple JSON upload and a live results view that works in the MVP demo in week 7
-
-stakeholders.md: S01 and S09 are high influence; S09 is the veto
-stakeholder because the pilot cannot run without data approval.
