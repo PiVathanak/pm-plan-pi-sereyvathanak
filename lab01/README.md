@@ -21,6 +21,7 @@
 | lab01/business-case.csv | financial cost-benefit model and payback calculations with reconciled formulas |
 | lab01/process-groups.md | mapping of the five process groups across 14 weeks with Mermaid Gantt and phase gates |
 | lab01/README.md | lab record with document control, file inventory, inputs reused, and change log |
+| lab01/post-mortem.md | challenge post-mortem of CampusPay IT failure with 5 charter-linked commitments |
 
 ## Inputs reused
 
@@ -33,3 +34,4 @@
 | Date | Version | Change |
 |------|---------|--------|
 | 2026-10-25 | 0.1 | Lab-01: charter, stakeholders, business case, mapping |
+| 2026-10-25 | 0.2 | Lab-01 challenge: added post-mortem analysis of CampusPay failure with charter-linked commitments |
