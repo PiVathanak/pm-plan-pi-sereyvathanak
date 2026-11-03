@@ -9,7 +9,7 @@ Must share would rise from 300/504 = 59.5 % to 340/504 = 67.5 %, above the 60 % 
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 |--------|-------------|-------------|----------------|-------------|
 | A slip the pilot | +1 week (40/40) | 0 USD | Scope intact, but the pilot date moves | violates C-01 |
-| B swap: defer F16 question bank (30 h) + F17 admin role (12 h) = 42 h | +0 weeks | 0 USD | No question bank, no admin screen (accounts via SQL script); chat adds WebSocket load, so the broadcast under 500 ms target must be retested | ok |
+| B swap: defer F13 multimedia (24 h) + F16 question bank (30 h) = 54 h | +0 weeks | 0 USD | No multimedia or question bank; chat adds WebSocket load, so the broadcast under 500 ms target must be retested | ok |
 | C pay: TA 40 h | +0 weeks | 40 x 12 = 480 USD | Scope intact | violates C-03 |
 
 **Recommendation:** B. A is rejected because it moves the fixed pilot date by a week. C is rejected because 480 USD is 2.4 times the whole cash budget.
@@ -20,7 +20,7 @@ Time impact of the raw request: 12 h / 40 h per week = 0.3 weeks.
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 |--------|-------------|-------------|----------------|-------------|
 | A absorb in contingency | +0 weeks | 0 USD (56 -> 44 h buffer) | Buffer shrinks 21 %, less room for the risk of WebSocket rework | ok |
-| B swap: defer F17 admin role (12 h) | +0 weeks | 0 USD | No admin screen, PM manages the 50 pilot accounts by SQL script | ok |
+| B swap: defer F13 multimedia (24 h) | +0 weeks | 0 USD | No multimedia; PM manages the 50 pilot accounts by SQL script | ok |
 | C pay: TA 12 h | +0 weeks | 12 x 12 = 144 USD | Scope intact | violates C-03 (144 USD > 85 USD reserve) |
 | D slip the pilot | +0.3 weeks | 0 USD | Scope intact | violates C-01 |
 
@@ -33,11 +33,11 @@ Planned work 504 h exceeds capacity 480 h by 24 h before any risk.
 
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 |--------|-------------|-------------|----------------|-------------|
-| A drop the whole Could class (F14 40 + F15 12 + F16 30 + F17 12 = 94 h) | 0 weeks | 0 USD; planned 410 h vs 480 h, buffer 70 h | All Must and Should intact; no chat, anonymous join, question bank, admin screen | ok |
+| A drop the whole Could class (F13 24 + F14 40 + F15 12 + F16 30 = 106 h) | 0 weeks | 0 USD; planned 398 h vs 480 h, buffer 82 h | All Must and Should intact; no multimedia, chat, anonymous join, or question bank | ok |
 | B keep scope, pay TA 72 h (24 h gap + 48 h contingency) | 0 weeks | 72 x 12 = 864 USD | Scope intact | violates C-03 |
 | C keep scope, pilot stays in week 14 | +2 weeks | 0 USD | Scope intact | violates the dean's new date constraint |
 
-**Recommendation:** A. It restores a 70 h buffer, larger than the original 56 h, and touches no Must or Should feature. B is rejected because 864 USD is over four times the cash budget. C is rejected because the date is the dean's decision, not ours.
+**Recommendation:** A. It restores an 82 h buffer, larger than the original 56 h, and touches no Must or Should feature. B is rejected because 864 USD is over four times the cash budget. C is rejected because the date is the dean's decision, not ours.
 
 ## Process
 ```mermaid
