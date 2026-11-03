@@ -9,7 +9,7 @@ Must share would rise from 300/504 = 59.5 % to 340/504 = 67.5 %, above the 60 % 
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 |--------|-------------|-------------|----------------|-------------|
 | A slip the pilot | +1 week (40/40) | 0 USD | Scope intact, but the pilot date moves | violates C-01 |
-| B swap: defer F13 multimedia (24 h) + F16 question bank (30 h) = 54 h | +0 weeks | 0 USD | No multimedia or question bank; chat adds WebSocket load, so the broadcast under 500 ms target must be retested | ok |
+| B swap: defer F13 multimedia (24 h) + F16 question bank (30 h) = 54 h | +0 weeks | 0 USD; 14 h returns to contingency | No multimedia or question bank; chat adds WebSocket load, so the broadcast under 500 ms target must be retested | ok |
 | C pay: TA 40 h | +0 weeks | 40 x 12 = 480 USD | Scope intact | violates C-03 |
 
 **Recommendation:** B. A is rejected because it moves the fixed pilot date by a week. C is rejected because 480 USD is 2.4 times the whole cash budget.
@@ -20,9 +20,9 @@ Time impact of the raw request: 12 h / 40 h per week = 0.3 weeks.
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 |--------|-------------|-------------|----------------|-------------|
 | A absorb in contingency | +0 weeks | 0 USD (56 -> 44 h buffer) | Buffer shrinks 21 %, less room for the risk of WebSocket rework | ok |
-| B swap: defer F13 multimedia (24 h) | +0 weeks | 0 USD | No multimedia; PM manages the 50 pilot accounts by SQL script | ok |
+| B swap: defer F13 multimedia (24 h) | +0 weeks | 0 USD; 12 h returns to contingency | No multimedia; PM manages the 50 pilot accounts by SQL script | ok |
 | C pay: TA 12 h | +0 weeks | 12 x 12 = 144 USD | Scope intact | violates C-03 (144 USD > 85 USD reserve) |
-| D slip the pilot | +0.3 weeks | 0 USD | Scope intact | violates C-01 |
+| D slip the pilot | +1 week (12/40 rounded up) | 0 USD | Scope intact | violates C-01 |
 
 **Recommendation:** B. A is rejected because it spends buffer that CR-01 or a risk may need. C is rejected because it exceeds the 85 USD reserve line. D is rejected because it moves the fixed pilot date.
 

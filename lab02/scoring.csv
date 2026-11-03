@@ -4,5 +4,7 @@ Cost,25,4,3,3
 Time,20,3,5,4
 Requirements fit,15,5,3,4
 Weight check,=SUM(B2:B5),,,
-Weighted score,,=SUMPRODUCT($B$2:$B$5,C2:C5),=SUMPRODUCT($B$2:$B$5,D2:D5),=SUMPRODUCT($B$2:$B$5,E2:E5)
-Percentage of maximum,,=C7/(5*$B$6),=D7/(5*$B$6),=E7/(5*$B$6)
+Weighted score - Build,,"=SUMPRODUCT($B$2:$B$5,C2:C5)",,
+Weighted score - Buy,,,"=SUMPRODUCT($B$2:$B$5,D2:D5)",
+Weighted score - Hybrid,,,,"=SUMPRODUCT($B$2:$B$5,E2:E5)"
+Percentage of maximum,,=C7/(5*$B$6),=D8/(5*$B$6),=E9/(5*$B$6)

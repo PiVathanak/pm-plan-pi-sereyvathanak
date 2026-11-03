@@ -11,16 +11,16 @@ The dean has shortened the semester pilot by two weeks. The 80 h capacity loss l
 
 | Option | Time | Cost | Quality at the pilot |
 |--------|------|------|----------------------|
-| A. Drop all Could features (94 h) | 0 weeks | 0 USD | All Must and Should features remain; 70 h buffer |
-| B. Buy 104 h of TA capacity | 0 weeks | 1,248 USD | Planned scope retained; violates C-03 |
+| A. Drop all Could features (106 h) | 0 weeks | 0 USD | All Must and Should features remain; 82 h buffer |
+| B. Buy 72 h of TA capacity | 0 weeks | 864 USD | Planned scope retained; violates C-03 |
 | C. Keep pilot in week 14 | +2 weeks | 0 USD | Quality preserved; violates C-01 |
 
 ## Recommendation
-Choose **A**: removing F14-F17 (40 + 12 + 30 + 12 = 94 h) protects every Must and Should feature and leaves 70 h of capacity.
-B is rejected because 1,248 USD is 6.24 times the C-03 cash cap.
+Choose **A**: removing F13-F16 (24 + 40 + 12 + 30 = 106 h) protects every Must and Should feature and leaves 82 h of capacity.
+B is rejected because 864 USD is 4.32 times the C-03 cash cap.
 C is rejected because the dean’s revised date makes a week-14 pilot unavailable.
 
 ## If no decision by the deadline
-The team defaults to A at W7, freezes F14-F17, and starts only Must and quality-floor work; no additional cash is spent.
+The team defaults to A at W7, freezes F13-F16, and starts only Must and quality-floor work; no additional cash is spent.
 
 Details: `change-requests.md` (CR-03).

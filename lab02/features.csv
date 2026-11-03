@@ -11,7 +11,7 @@ F09,Responsive design,Should,20,NFR browser support
 F10,Analytics and reporting,Should,30,FR-R1..FR-R3
 F11,Export results to CSV and PDF,Should,24,FR-R4
 F12,Real-time notifications,Should,12,FR-N1..FR-N2
-F13,Multimedia in questions,Should,24,FR-Q3 media
+F13,Multimedia in questions,Could,24,FR-Q3 media
 F14,Chat during sessions,Could,40,FR-N3
 F15,Anonymous joining with nickname,Could,12,Guest role
 F16,Question bank shared between quizzes,Could,30,-
