@@ -9,7 +9,12 @@ gantt
   Plan, scope, WBS, schedule, budget (W2-3) :p2, after p1, 14d
   G1 plan approved                          :milestone, m1, 2026-10-19, 0d
   section Agile delivery
-  Sprint 1 TODO goal (W4-5)                 :s1, 2026-10-20, 14d
-  %% TODO sprint 2, G2 after sprint 2, sprint 3, sprint 4, G3
-  section Release
-  %% TODO hardening (W12-13), pilot (W14), G4
+  Sprint 1 walking skeleton and join flow (W4-5)   :s1, 2026-10-20, 14d
+  Sprint 2 live questions, answers, scoring (W6-7) :s2, after s1, 14d
+  G2 MVP accepted                                  :milestone, m2, 2026-11-16, 0d
+  Sprint 3 host controls, leaderboard, Musts (W8-9) :s3, after s2, 14d
+  Sprint 4 security, data protection, polish (W10-11) :s4, after s3, 14d
+  G3 feature complete                              :milestone, m3, 2026-12-14, 0d
+  Hardening, load test, fixes (W12-13)      :h1, after s4, 14d
+  Pilot with 50 students (W14)              :pl, after h1, 7d
+  G4 pilot result and release decision      :milestone, m4, 2027-01-04, 0d
